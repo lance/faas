@@ -53,6 +53,7 @@ builderMap:
   default: quay.io/boson/faas-go-builder
 envs: []
 annotations: {}
+labels: {}
 `
 	tmpDir, err := ioutil.TempDir("", "bar")
 	if err != nil {
